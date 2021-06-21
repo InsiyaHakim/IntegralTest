@@ -18,9 +18,9 @@ class TimeLine {
         people.add(user);
     }
 
-    public List<String> sendMessage(List<String> m) {
+    public List<String> sendMessage(String m) {
 
-        for(var i = 0; i < m.size(); i++){
+       /* for(var i = 0; i < m.size(); i++){
             message.add(m.get(i));
         }
 
@@ -30,11 +30,12 @@ class TimeLine {
         else{
             Collections.reverse(message);
             return message;
-        }
+        }*/
+        Collections.reverse(message);
+        message.add(m);
+        Collections.reverse(message);
+        return  message;
     }
 
 }
 
- class People {
-    public String Name;
-}
