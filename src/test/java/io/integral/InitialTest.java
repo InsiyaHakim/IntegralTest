@@ -29,6 +29,8 @@ public class InitialTest {
 /*
 person can post a message to there timeline
 person can view their messages
+create another person and see if her messages are geting correctly
+timeline how long message was posted
 
 * */
 
